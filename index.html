@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <title>Chonnikan's</title>
+</head>
+
+<body>
+    <header>
+        <br><br><br><br>
+        <h1>Chonnikan Auetanickul</h1>
+        <br><br><br>
+        <ul>
+            <li><a id="nav-about" class="active" onclick="change('about')">About Me</a></li>
+            <li><a id="nav-exp" onclick="change('exp')">Experience</a></li>
+            <li><a id="nav-skill" onclick="change('skill')">Skills</a></li>
+        </ul>
+    </header>
+    <article id="about">
+        <h2>About Me</h2>
+        <p>Hi, my name is Chonnikan Auetanickul. You can call me 'Mai'. I'm 22 years old and completed Bachelor's Degree in Computer Science from Chulalongkorn University with a 3.30/4.00 GPA (2nd Class Honors). For more details, let's take a look at the
+            sections 'Experience' and 'Skills'.</p>
+
+    </article>
+    <article id="exp">
+        <h2>Experience</h2>
+        <p class="sub-article">Work & Travel Spring Program, USA<span class="date">March - July 2022</span></p>
+        <p>Crew member at Dunkin' Donuts and McDonald's, Busser at Scally's Irish Ale House, Cashier at Stop & Shop<br> - Provided fast-paced customer service<br> - Performed all tasks/duties assigned by immediate supervisors
+        </p>
+        <p class="sub-article">Web Developer Intern<span class="date">June - August 2021</span></p>
+        <p>The Information Technology and Visual Technology Division, Chulalongkorn University<br> - Built the database for the Project/Activity Information Management System<br> - Designed user interface (UI) focusing on user experience (UX)<br> - Developed
+            and implemented web application to manage all projects<br> - Utilized Agile methodologies, released processes and customized to users' needs on a weekly basis
+        </p>
+        <p class="sub-article">Part-time Staff & Office Worker<span class="date">May 2019 - November 2020</span></p>
+        <p>The Educational Service Division, Chulalongkorn University<br> - Fulfilled office assistant duties, e.g., administrator, receptionist, messenger<br> - Acted as master of ceremonies in BBTech’s Speech Contest on 28th November 2020<br> - Managed
+            BBTech’s Early Admission Interview on 3rd January 2020<br> - Organized and ran a Math & Comp booth in Science Chula Open House on 17th August 2019<br> - Conducted the Science Interview on 30th May 2019
+        </p>
+    </article>
+    <article id="skill">
+        <h2>Skills</h2>
+        <p class="sub-article">Computers</p>
+        <p>- MS Office: Word, PowerPoint, Excel
+            <br>- Front-end and back-end web development: HTML, CSS, Bootstrap, JavaScript, SQL, PHP
+            <br>- UX/UI design: Figma
+            <br>- Data visualization for business analysis: Rapidminer, Tableau
+            <br>- Statistics: Instat+, Mathcad
+            <br>
+        </p>
+        <p class="sub-article">Language</p>
+        <p>- Thai: Native
+            <br>- English: Intermediate (CU-TEP test result: 55/120 on 18th August 2018)
+        </p>
+    </article>
+    <article>
+        <button type="button" class="position-relative" onclick="love()">
+            <img class="ig" src="image/ig.png">
+            <span id="number" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"></span>
+        </button>
+    </article>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+* {
+    font-family: monospace;
+}
+
+header {
+    text-align: center;
+    background: url('https://i.pinimg.com/originals/b5/66/31/b56631b993b56e10701ff022781f88e5.jpg');
+    background-size: cover;
+}
+
+a {
+    color: white !important;
+    cursor: pointer;
+    text-decoration: underline !important;
+}
+
+h1 {
+    font-size: 110px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+p {
+    font-weight: 100;
+}
+
+.ig {
+    height: 125px;
+    padding: 0;
+}
+
+#number {
+    font-size: x-large;
+}
+
+button {
+    border: none;
+    background: transparent;
+    /* position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
+    z-index: 10;
+    bottom: 10;
+    right: 70;*/
+    float: right;
+    position: relative;
+    padding: 0;
+}
+
+ul {
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+    display: inline;
+    font-size: 18px;
+    padding: 0px 50px 0px 10px;
+}
+
+article {
+    max-width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.date {
+    float: right;
+}
+
+.sub-article {
+    font-weight: bold;
+}
+
+#exp,
+#skill {
+    display: none;
+}
+
+#about,
+#exp,
+#skill {
+    margin-bottom: -30px;
+}
+
+a:hover {
+    font-style: italic;
+}
+
+.active {
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+button img:first-child {
+    cursor: pointer;
+}
+
+#love {
+    height: 50px;
+    display: none;
+    float: right;
+    position: absolute;
+    right: 10px;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 40px;
+        padding: 5px;
+    }
+    li {
+        padding: 5px;
+        display: block;
+    }
+    .ig {
+        height: 100px;
+    }
+    button {
+        right: 10px;
+    }
+}
