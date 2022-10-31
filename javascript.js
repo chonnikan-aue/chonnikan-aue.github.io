@@ -1,3 +1,5 @@
+document.getElementById("music").play();
+
 function change(content) {
     document.getElementById("about").style.display = "none";
     document.getElementById("exp").style.display = "none";
