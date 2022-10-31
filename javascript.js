@@ -1,4 +1,9 @@
-document.getElementById("music").play();
+function music() {
+    if (!document.getElementById("music").play()) {
+        document.getElementById("music").play();
+    }
+}
+
 
 function change(content) {
     document.getElementById("about").style.display = "none";
